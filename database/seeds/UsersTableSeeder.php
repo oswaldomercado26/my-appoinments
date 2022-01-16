@@ -15,7 +15,7 @@ class UsersTableSeeder extends Seeder
         // 1
     	User::create([
     		'name' => 'Admin',
-	        'email' => 'hola@agilemed.com',
+	        'email' => 'admin@agilemed.com',
 	        'password' => bcrypt('123123'),
 	        'role' => 'admin'
     	]);
@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
         // 2
         User::create([
             'name' => 'Paciente Test',
-            'email' => 'patient@agilemed.com',
+            'email' => 'paciente@agilemed.com',
             'password' => bcrypt('123123'),
             'role' => 'patient'
         ]);

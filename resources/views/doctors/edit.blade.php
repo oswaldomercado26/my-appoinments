@@ -41,7 +41,7 @@
           <input type="text" name="email" class="form-control" value="{{ old('email', $doctor->email) }}">
         </div>
         <div class="form-group">
-          <label for="dni">DNI</label>
+          <label for="dni">NSS</label>
           <input type="text" name="dni" class="form-control" value="{{ old('dni', $doctor->dni) }}">
         </div>
         <div class="form-group">
