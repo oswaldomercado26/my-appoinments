@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 
 use App\User;
 
+
 class FirebaseController extends Controller
 {
     public function sendAll(Request $request)
