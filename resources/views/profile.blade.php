@@ -45,7 +45,7 @@
         </div>
         <div class="form-group">
           <label for="file-input">Imagen</label>
-          <p>Subir imagen con fondo blanco del usuario </p>
+            <p>Subir imagen con fondo blanco del usuario </p>
             <p>Nota: evitar utilizar cualquier objeto que tape el rostro</p>
           <input id="file-input" name="imagenesperfil" type="file"/>
         </div>
