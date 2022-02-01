@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "701f63f5a2774d4799546c55b352aa9e",
+    "content-hash": "ac878941bc25849067ec4d63689bcea6",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1165,21 +1165,21 @@
         },
         {
             "name": "kawankoding/laravel-fcm",
-            "version": "0.1.9",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawankoding/laravel-fcm.git",
-                "reference": "b27d1f813513b79697f8238141fcd76d4ae84eaa"
+                "reference": "f0f9fe1478de6a6b9146231b47341c68f1ac98e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawankoding/laravel-fcm/zipball/b27d1f813513b79697f8238141fcd76d4ae84eaa",
-                "reference": "b27d1f813513b79697f8238141fcd76d4ae84eaa",
+                "url": "https://api.github.com/repos/kawankoding/laravel-fcm/zipball/f0f9fe1478de6a6b9146231b47341c68f1ac98e7",
+                "reference": "f0f9fe1478de6a6b9146231b47341c68f1ac98e7",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "^5.1|^6.0",
-                "php": "^5.6|^7.0"
+                "illuminate/support": "^5.1|^6.0|^7.0|^8.0",
+                "php": "^5.6|^7.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -1210,9 +1210,9 @@
             "description": "A package to send Firebase notification cross Laravel Application",
             "support": {
                 "issues": "https://github.com/kawankoding/laravel-fcm/issues",
-                "source": "https://github.com/kawankoding/laravel-fcm/tree/master"
+                "source": "https://github.com/kawankoding/laravel-fcm/tree/0.2.5"
             },
-            "time": "2019-10-01T01:34:39+00:00"
+            "time": "2021-07-19T15:43:19+00:00"
         },
         {
             "name": "kylekatarnls/update-helper",

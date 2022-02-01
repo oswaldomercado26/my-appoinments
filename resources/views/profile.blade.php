@@ -43,6 +43,12 @@
           <label for="address">Dirección</label>
           <input name="address" value="{{ old('address', $user->address) }}" id="address" type="text" class="form-control" required>
         </div>
+        <div class="form-group">
+          <label for="file-input">Imagen</label>
+          <p>Subir imagen con fondo blanco del usuario </p>
+            <p>Nota: evitar utilizar cualquier objeto que tape el rostro</p>
+          <input id="file-input" name="imagenesperfil" type="file"/>
+        </div>
 
         <button type="submit" class="btn btn-primary">
           Guardar cambios
