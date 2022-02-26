@@ -13,3 +13,8 @@
     <i class="ni ni-time-alarm text-primary"></i> Mis citas
   </a>
 </li>
+<li class="nav-item">
+  <a class="nav-link" href="#">
+    <i class="ni ni-ruler-pencil text-primary"></i> Receta medicas
+  </a>
+</li>

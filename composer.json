@@ -11,7 +11,9 @@
         "kawankoding/laravel-fcm": "^0.2.5",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "miladrahimi/larajwt": "2.*"
+        "lcobucci/jwt": "3.3.3",
+        "miladrahimi/larajwt": "2.*",
+        "mpociot/botman": "^2.6"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

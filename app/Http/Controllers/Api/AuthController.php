@@ -30,7 +30,7 @@ class AuthController extends Controller
 		} else {
 		    // Return response for failed attempt.
 			$success = false;
-			$message = 'Invalid credentials';
+			$message = 'Credenciales Invalidas';
 			return compact('success', 'message');
 		}
     }
@@ -55,4 +55,5 @@ class AuthController extends Controller
 	    
 	    return compact('success', 'user', 'jwt');
     }
+
 }

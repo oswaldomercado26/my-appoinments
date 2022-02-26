@@ -18,7 +18,7 @@ class PhoneMiddleware
         if (auth()->user()->phone)
             return $next($request);
 
-        $notification = 'Es necesario asociar un nro de teléfono para registrar citas.';
+        $notification = 'Es necesario asociar un numero de teléfono para registrar sus citas.';
         return redirect('/profile')->with(compact('notification'));
     }
 }
