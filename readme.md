@@ -1,3 +1,2 @@
-# Laravel y Android
-
+# Laravel 
 ## Introducción
